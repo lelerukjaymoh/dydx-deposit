@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#043243",
+        "titleBar.activeBackground": "#06465E",
+        "titleBar.activeForeground": "#F5FCFE"
+    },
+    "cSpell.words": [
+        "moralis"
+    ]
+}
