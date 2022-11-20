@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node-dev -r dotenv/config src/stark-key/generate.ts"
+    "dev": "ts-node-dev -r dotenv/config src/stark-key/generate.ts",
+    "test": "ts-node-dev -r dotenv/config test/test.ts"
   },
   "repository": {
     "type": "git",
@@ -16,13 +17,14 @@
   "dependencies": {
     "@dydxprotocol/starkex-eth": "^0.14.5",
     "@dydxprotocol/starkex-lib": "^1.1.9",
-    "@dydxprotocol/v3-client": "^1.8.3",
+    "@dydxprotocol/v3-client": "^1.14.0",
     "axios": "^0.27.2",
-    "dotenv": "^16.0.1",
-    "hardhat": "^2.9.3",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2",
     "ts-node-dev": "^1.1.8",
-    "web3": "^1.7.3",
-    "ws": "^8.6.0"
+    "web3": "^1.8.1",
+    "ws": "^8.11.0"
   },
   "bugs": {
     "url": "https://github.com/henrykash/DyDx/issues"
