@@ -113,7 +113,7 @@ const fetchAccountDetails = async () => {
 
             const client_account_info = await client.private.getAccount(process.env.WALLET_ADDRESS!);
 
-            console.log("Clienc ", client_account_info)
+            console.log("Client ", client_account_info)
 
             console.log(await client.starkPrivateKey)
 
